@@ -1,0 +1,7 @@
+# Files generated from test bench
+/tb/sim_build/
+/tb/*.ghw
+/tb/results.xml
+
+# Python modules cache
+/*/__pycache__/
