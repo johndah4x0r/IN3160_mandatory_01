@@ -52,4 +52,10 @@ async def main_test(dut):
     dut.load.value = 0
 
     await Timer(260, unit=TIME_UNIT)
+    
+    # Set direction
+    dut.up.value = 1
+    
+    await Timer(240, unit=TIME_UNIT)
+    
     dut._log.info("Running test...done")

@@ -32,7 +32,7 @@ begin
         if rising_edge(clk) then
             count <= 
                 (others => '0') when reset else 
-                std_logic_vector(next_count);
+                std_ulogic_vector(next_count);
         end if;
     end process;
 
